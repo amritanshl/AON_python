@@ -1,6 +1,6 @@
 # import funcs 
 # from funcs import add, sub, mul, div
-from funcs import add as a, sub as s, mul as m, div as d, add_l
+from new.funcs import add as a, sub as s, mul as m, div as d, add_l
 
 
 num1 = int(input("enter first number: "))
