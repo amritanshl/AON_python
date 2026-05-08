@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beautiful Soup Sandbox</title>
+</head>
+<body>
+
+    <!-- Concept 1: Find Element by ID -->
+    <header id="main-header">
+        <h1>Scraping Practice Site</h1>
+        <p>Use this page to test your Python scraping skills.</p>
+    </header>
+
+    <main>
+        <!-- Concept 2: Find Element by Class -->
+        <section id="articles">
+            <h2>Latest News</h2>
+            
+            <div class="news-item urgent">
+                <h3>Server Outage</h3>
+                <p>The primary database is currently offline.</p>
+            </div>
+            
+            <div class="news-item">
+                <h3>New Feature Released</h3>
+                <p>The new UI dashboard is now live for all users.</p>
+            </div>
+            
+            <div class="news-item urgent">
+                <h3>Security Patch Required</h3>
+                <p>Please update your instances by midnight.</p>
+            </div>
+        </section>
+
+        <!-- Concept 3 & 4: Searching the Tree & Finding Children -->
+        <section id="server-status">
+            <h2>Current Server Nodes</h2>
+            
+            <!-- We will find this UL and get all its children -->
+            <ul class="node-list">
+                <li>Node A: <span class="status-online">Online</span></li>
+                <li>Node B: <span class="status-offline">Offline</span></li>
+                <li>Node C: <span class="status-online">Online</span></li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
